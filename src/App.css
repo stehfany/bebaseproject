@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000f1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,24 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
+}
+
+.navbar{
+  background-color: #000;
+}
+.navbar a, .separator {
+  color: white; /* Define a cor branca para os links e a barra */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Adiciona sublinhado no hover */
+}
+
+.titulo{
+  margin-top: -20px;
 }
